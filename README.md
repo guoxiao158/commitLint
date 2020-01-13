@@ -5,9 +5,9 @@ Husky + Commitlint + Lint-staged()
 
 #### 快速使用
 1 现有项目如果想要使用  两步
-  # 第一步 npm install --save-dev  @commitlint/cli  @commitlint/config-conventional husky	
- # 第二步 把项目中 .huskerc文件 和commitlint.config.js复制到你的目录
-现在你commit的时候，就会有检测了 
+  #第一步 npm install --save-dev  @commitlint/cli  @commitlint/config-conventional husky	
+ #第二步 把项目中 .huskyrc文件 和commitlint.config.js复制到你的目录
+现在你commit的时候，就会有检测了 配置规范在commitlint.config。js中
 
 #### 安装教程
 
