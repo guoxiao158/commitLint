@@ -35,4 +35,20 @@ Husky + Commitlint + Lint-staged()
 
 huskyrc 插件的作用就是会检测git 钩子函数
 
+####  git commit 提交规范
+提交格式（注意冒号后面有空格）
+<type>: <subject>
+####  常用的type类别
+upd：更新某功能（不是 feat, 不是 fix）
+feat：新功能（feature）
+fix：修补bug
+docs：文档（documentation）
+style： 格式（不影响代码运行的变动）
+refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+test：增加测试
+chore：构建过程或辅助工具的变动
+#### 例子：
+
+git commit -m 'feat: 增加 xxx 功能'
+git commit -m 'bug: 修复 xxx 功能'
 
