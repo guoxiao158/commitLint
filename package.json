@@ -12,7 +12,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
-    "gitmoji-cli": "^1.9.3",
+    "gitmoji-cli": "^8.2.0",
     "husky": "^3.0.0"
 
   }
